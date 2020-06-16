@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.palette {
+    flex: 1;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #444;
+}
+
+.test {
+    width: 45px;
+    height: 45px;
+    background: #c8b8f6;
+}
