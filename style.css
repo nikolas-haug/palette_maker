@@ -13,10 +13,10 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     color: #444;
+    cursor: pointer;
 }
 
-.test {
+.test__item {
     width: 45px;
     height: 45px;
-    background: #c8b8f6;
 }

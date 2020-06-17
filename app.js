@@ -10,6 +10,10 @@ function randomHexColor() {
 
 function lockColor() {
     this.setAttribute('data-locked', 'true');
+    let newItem = document.createElement('div');
+    newItem.classList.add('test__item');
+    newItem.style.backgroundColor = this.style.backgroundColor;
+    document.querySelector('.selected').appendChild(newItem);
 }
 
 function updateColors() {
