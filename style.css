@@ -1,7 +1,6 @@
-:root {
-    --hue: 
-    --saturation: 50%;
-    --lightness: 50%;
+label,
+input {
+    display: block;
 }
 
 .container {
