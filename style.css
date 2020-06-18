@@ -1,3 +1,9 @@
+:root {
+    --hue: 
+    --saturation: 50%;
+    --lightness: 50%;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -19,4 +25,19 @@
 .test__item {
     width: 45px;
     height: 45px;
+}
+
+.slider-palette {
+    flex: 1;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+
+    background-color: hsl(var(--hue), var(--saturation), var(--lightness));
 }
