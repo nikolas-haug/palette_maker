@@ -37,6 +37,4 @@ input {
     font-weight: 400;
     color: #444;
     cursor: pointer;
-
-    background-color: hsl(var(--hue), var(--saturation), var(--lightness));
 }
