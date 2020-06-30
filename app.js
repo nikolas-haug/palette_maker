@@ -70,6 +70,8 @@ function updateColors() {
             square.style.backgroundColor = color;
             square.textContent = color;
         }
+
+        // Implement localstorage here
     });
 }
 
