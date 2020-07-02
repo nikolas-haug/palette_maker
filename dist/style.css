@@ -1608,8 +1608,7 @@ kbd {
   cursor: pointer; }
 
 .test__item {
-  width: 45px;
-  height: 45px; }
+  height: 14rem; }
 
 .slider-palette {
   flex: 1;

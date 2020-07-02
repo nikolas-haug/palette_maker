@@ -57,7 +57,7 @@ function randomHSLColor() {
 function lockColor() {
     this.setAttribute('data-locked', 'true');
     let newItem = document.createElement('div');
-    newItem.classList.add('test__item');
+    newItem.classList.add('test__item', 'col-3');
     newItem.style.backgroundColor = this.style.backgroundColor;
     document.querySelector('.selected').appendChild(newItem);
 }
