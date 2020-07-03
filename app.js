@@ -8,7 +8,7 @@ const saturationValue = document.querySelector('#saturation-value');
 const lightnessValue = document.querySelector('#lightness-value');
 
 let hue = '240';
-let saturation = '50%';
+let saturation = '100%';
 let lightness = '50%';
 
 sliderPalette.style.backgroundColor = `hsl(${hue}, ${saturation}, ${lightness})`;
